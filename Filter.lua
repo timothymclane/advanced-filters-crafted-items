@@ -46,6 +46,7 @@ local filterInformation = {
   callbackTable = CraftedFilters,
   filterType = ITEMFILTERTYPE_ALL,
   subfilters = {"All"},
+  excludeFilterPanels = { LF_CRAFTBAG },
   excludeSubfilters = {
     "Crown",
     "Recipe",
